@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light-gray: hsl(0, 0%, 75%);
+    --grayish--blue: hsl(240, 50%, 97%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --cyan: #3c9f8f;
+    --dark-blue: hsl(243, 87%, 12%);
+    --deastured-blue: hsl(238, 22%, 44%);
+}
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+}
+body {
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.container {
+    display: flex;
+    max-width: 1300px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+header {
+    margin-top: 60px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul li {
+    list-style: none;
+    margin-left: 54px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: var(--deastured-blue);
+}
+.part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.part1 img {
+    width: 640px;
+    height: 520px;
+    margin-left: 35px;
+}
+.part1 h1 {
+    width: 580px;
+}
+.part1 .about1 p {
+    color: var(--dark-blue);
+    margin-top: 30px;
+    margin-bottom: 25px;
+    width: 580px;
+}
+.part1 .about1 input {
+    width: 320px;
+    height: 45px;
+    border-radius: 3px;
+    border: 2px solid var(--light-gray);
+    padding: 20px;
+    border-width: thin;
+}
+.part1 .sign1 {
+    display: flex;
+}
+.part1 .about1 button {
+    width: 200px;
+    height: 45px;
+    border-radius: 3px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: var(--bright-blue);
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.part1 .about1 button:hover {
+    background-color: #6b9bff;
+}
+.part1 .about1 button a{
+    color: #fff;
+    text-decoration: none;
+}
+.part2 {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--grayish--blue);
+    height: 700px;
+
+}
+.part2 .img {
+    width: 640px;
+    height: 520px;
+    margin-left: 35px;
+}
+.part2 h1 {
+    margin-bottom: 40px;
+}
+.part2 .ttt {
+    width: 590px;
+    margin-bottom: 25px;
+}
+.part2 .link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--cyan);
+    width: 190px;
+}
+.part2 .link:hover {
+    border-bottom: 1px solid #a1cac2;
+}
+.part2 .link a:hover {
+    color: #a1cac2;
+}
+.part2 .link a {
+    color: var(--cyan);
+    text-decoration: none;
+    margin-right: 5px;
+}
+.card {
+    width: 360px;
+    height: 220px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 45px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 6px 15px 0px;
+    border-radius: 5px;
+}
+.card .quotes {
+    font-size: 20px;
+}
+.card .ddd {
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.card .profil {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card .profil img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.card .profil .texts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.card .profil .texts p {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+.card .profil .texts span {
+    font-size: 11px;
+    margin: 0;
+}
+.part3 {
+    height: 322px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--deastured-blue);
+    color: white;
+}
+.part3 .about3 {
+    width: 550px;
+}
+.part3 .about3 p {
+    margin-top: 25px;
+}
+.part3 .sign {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 230px;
+    flex-direction: column;
+}
+.part3 .sign input {
+    width: 480px;
+    height: 48px;
+    border-radius: 3px;
+    padding: 0 22px;
+    font-size: 15px;
+    border-width: thin;
+}
+.part3 .sign button {
+    font-family: 'Raleway', sans-serif;
+    width: 200px;
+    height: 48px;
+    background-color: var(--bright-blue);
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 6px 15px 0px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+}
+.part3 .sign button:hover {
+    background-color: #6b9bff;
+}
+footer {
+    height: 450px;
+    padding-top: 107px;
+    padding-bottom: 70px;
+    background-color: var(--dark-blue);
+}
+.container2 {
+    padding-left: 14px;
+    padding-right: 14px;
+    display: flex;
+    max-width: 1300px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+footer .phone {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+footer .emailfylo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: flex-start;
+}
+footer .phone img , footer .emailfylo img{
+    margin-right: 20px;
+}
+footer .cols {
+    margin-top: 55px;
+} 
+footer .col ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .col4 i {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+footer .col4 i:first-child {
+    padding: 8px 11px;
+}
+footer ul li a:hover {
+    color: #8699e5;
+}
+footer .col4 i:hover {
+    color: #8699e5;
+    border: 1px solid #8699e5;
+}
+
+.inputs:focus {
+    outline: none;
+}
+.errorcolor1 {
+    color: #EB1D36;
+    font-size: 13px;
+}
+.errorcolor2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+.successcolor {
+    display: none;
+}
+.sign div {
+    margin-right: auto;
+}
+
+@media (max-width: 750px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        max-width: 350px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .container2 {
+        display: flex;
+        max-width: 550px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    footer .cont4 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        width: 350px;
+    }
+    header {
+        margin-top: 40px;
+        width: 100%;
+    }
+    header img {
+        width: 100px;
+    }
+    header nav ul li {
+        margin-left: 25px;
+        font-size: 13px;
+    }
+    .part1 {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .part1 .cont1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .part1 img {
+        width: 350px;
+        height: 270px;
+        margin-left: 0;
+    }
+    .part1 h1 {
+        width: 365px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 29px;
+        margin-top: 40px;
+    }
+    .part1 .about1 p {
+        margin-top: 20px;
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .part1 .about1 input {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .part1 .sign1 {
+        display: block;
+    }
+    .part1 .about1 form {
+        width: 350px;
+        margin-left: 8px;
+    }
+    .part1 .about1 button {
+        width: 350px;
+        height: 45px;
+        margin: 0 auto;
+        font-size: 15px;
+        margin-top: 20px;
+        
+    }
+    .part2 {
+        height: 1000px;
+    }
+    .part2 .cont2{
+        margin: 0;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .part2 .img {
+        width: 350px;
+        height: 270px;
+        margin-left: 0;
+    }
+    .part2 h1 {
+        width: 360px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .part2 .ttt {
+        width: 330px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+    .part2 .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 160px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .part2 .link a {
+        font-size: 15px;
+    }
+    .card {
+        width: 340px;
+        height: 230px;
+        font-size: 13px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .card .quotes {
+        margin-bottom: 10px;
+    }
+    .part3 {
+        height: 400px;
+    }
+    .part3  .cont3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .part3 h1 {
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 24px;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    .part3 .about3 p {
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 340px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .part3 .sign {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .part3 .sign input {
+        width: 320px;
+        height: 45px;
+        padding: 0 22px;
+        font-size: 15px;
+    }
+    .part3 .sign button {
+        width: 320px;
+        height: 45px;
+    }
+    footer {
+        height: 850px;
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+    footer .col4 {
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+}
+
+
